@@ -1,0 +1,29 @@
+[33mcommit 370c5476b216d1d8f08749f3e5b852898763b075[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Demetris <demetris@mail.ru>
+Date:   Mon Mar 27 20:22:07 2023 +0500
+
+    del gitignore
+
+[33mcommit 0aa846fdb84e04ee78cdb4509c523dc1d01d1964[m
+Author: Demetris <demetris@mail.ru>
+Date:   Mon Mar 27 20:15:16 2023 +0500
+
+    Localization
+
+[33mcommit 4211bebca743c5cd5fe7febe54e6987a8af6ba16[m
+Author: Demetris <demetris@mail.ru>
+Date:   Mon Mar 27 19:59:29 2023 +0500
+
+    Добавил страницу
+
+[33mcommit 41d67cbffda6e2fee6538f8fb240ee1619c9353a[m
+Author: Demetris <demetris@mail.ru>
+Date:   Mon Mar 27 19:51:26 2023 +0500
+
+    Добавил файл test
+
+[33mcommit fdeb38f233db3494f7d0c695c88cde5e2d22a445[m
+Author: Demetris <128890510+Demetrisrus@users.noreply.github.com>
+Date:   Mon Mar 27 19:43:15 2023 +0500
+
+    Initial commit
