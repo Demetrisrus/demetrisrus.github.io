@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demetris' test page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="/scripts/script.js"></script>
+ 
+    
+  </head>
+  <body>
+    <header>
+        <img src="UNIT-4/media/pics/toppic.png" alt="техно-картинка">
+    </header>  
+    
+    <h1>This is my first webpage</h1>
+    <hr>
+      <p>&laquo;P&raquo; &mdash; Этот тег, как я понял, из старых версий html. Сейчас его можно заменить на article</p>
+      <div style="background-color: bisque;">
+        Тэги div и span используются для <b>разметки</b> страницы в некие блоки. Вероятно чтобы ими было <i>удобно</i> оперировать, когда задаешь свойства ряда элементов в хэде
+        </div>
+        <br>
+        <br>
+        <h2>Какие бывают списки</h2>
+
+        <ul>
+          <li>Это первый пункт маркированного списка</li>
+          <li>А вот и второй</li>
+          <li>А еще элементом списка может быть <a href="https://ya.ru">ссылка</a></li>
+        </ul>
+
+        <ol>
+            <li>Нумерованный список</li>
+            <li>Второй элемент</li>
+        </ol>
+        <h2>Теги для определений</h2>
+        <dl>
+            <dt>&laquo;DT&raquo;</dt>
+            <dd>Тэг для слова которому нужно дать определение</dd>
+            <dt>&laquo;DD&raquo;</dt>
+            <dd>Тэг для текста определения</dd>
+        </dl>
+        <h2>Цитаты</h2>
+        
+        <figure>
+            <blockquote cite="https://www.vk.com/demetris_rus">
+                <p>&#10077;Тэг &laquo;Blackquote&raquo; довольно удобен и совершенно нов для меня. Хотя конечно можно обойтись и без него&#10077;</p>
+            </blockquote>
+            <footer>&mdash;Дмитрий ЗАХАРОВ, <cite>Размышления об HTML, 2023&copy;</cite></footer>
+        </figure>
+        
+
+    <h2>Отображение кода в тексте</h2>
+    <p> Наверное иногда нужно на учебных или профессиональных сайтах. Например код CSS чтобы украсить цитату выше</p>
+    <code>
+        blockquote {
+            margin: 0;
+        }
+        
+        blockquote p {
+            padding: 15px;
+            background: #eee;
+            border-radius: 5px;
+        }
+        
+        blockquote p::before {
+            content: '\201C';
+        }
+        
+        blockquote p::after {
+            content: '\201D';
+        }
+    
+    </code>
+    <p>А есть еще тэг &laquo;PRE&raquo; Он все оставляет как есть: и пробелы и переносы и др. </p>
+    <pre>
+       Съешь   ещё этих мягких французских      булок, 
+        да выпей же чаю
+    </pre>
+    <h2>Тэг &laquo;ADDRESS&raquo;</h2>
+    <p>Нужен с очень узкой целью - выделить некие контактные данные</p>
+    <address>
+        Эта страница отличается невероятной продвинутостью и широким спектром HTML-инструментов задействованных при ее создании.
+        Если вы хотите такую же - записывайтесь в очередь и возможно до конца года я смогу принять ваш заказ 
+         
+    </address>
+    <footer>
+      <p>
+        Надеюсь что использовал все теги из домашнего задания
+      </p>
+    </footer>
+    </body>
+</html>
