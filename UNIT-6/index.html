@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/UNIT-4/icons/favicon-32x32.png" type="image/x-icon">
     <style> 
     table {
         border-spacing: 3px; /* Расстояние между ячеек */
@@ -18,17 +18,19 @@
         font-size:x-large;
         }
        td, th {
+        border: 10px;
+        border: #e08156;
+        margin: 20px;
         padding: 5px; /* Поля в ячейках */
-        background: #4c715b; /* Цвет фона ячеек */
-        color: #f5e8d0; /* Цвет текста */
+        color: black; /* Цвет текста */
        }
-       tr {font-size: large;}
+       tr {font-size: x-large;}
     </style>
   </head>
   <body>
     <main>
         <h1>Таблица времен английского языка</h1>
-        <table>
+        <table border="10px" cellspacing=10 cellpadding="20" margin="10" >
             <caption></caption>
             <thead>
                 <th></th>
@@ -37,7 +39,7 @@
                 <th>Perfect</th>
                 <th>Perfect Continuous</th>
             </thead>
-            <tbody>
+            <tbody >
                 <tr>
                     <td><h2>Past</h2></td>
                     <td>
@@ -99,13 +101,15 @@
                         I will have eaten in the evening
                     </td>
                     <td>
-                        Я буду есть напротяжении 2 дней<br>
+                        Я буду есть на протяжении 2 дней<br>
                         <img src="../Media/Pics/fatcat03_small.png"><br>
-                        I will have been eatingfor 2 days
+                        I will have been eating for 2 days
                     </td>
                 </tr>
                </tbody>
-            <Tfoot></Tfoot>
+            <Tfoot>
+                <tr><td colspan="4"></td></tr>
+            </Tfoot>
         </table>
     </main>
 	<script src="index.js"></script>
