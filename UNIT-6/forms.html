@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/UNIT-4/icons/favicon-32x32.png" type="image/x-icon">
+    <style>
+        form 
+        {
+            border: 2px solid yellowgreen
+            padding: 30px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+        }
+        label {
+            background-color:azure;
+            padding: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+        <h1>Формы</h1>  
+    </main>
+	<fieldset>
+        <legend>Образцы форм</legend>
+        <p>
+            <form action="http://127.0.0.1:5500/UNIT-6/forms.html" method="get">
+            <label>Поле для ввода запроса</label>
+            <input type="text" name="текст вопроса" placeholder="ввести запрос">
+            <label>Поле для ввода пароля</label>
+            <input type="password" name="password" placeholder="введите пароль">
+            <label>Поле для ввода номера телефона <br>
+            <input id="phone" type="tel" name="телефон" placeholder="введите номер телефона">
+            </label>
+            <label>Поле для ввода адреса электронной почты</label>
+            <input type="email" name="email" placeholder="введите email">
+            <input type="submit" value="Отправить">
+
+            <label>Чекбокс <br>
+            <input type="checkbox" name="whether" value="today">
+            </label>
+            </label>
+            </form>
+        </p>
+    
+     </fieldset>
+  </body>
+</html>

@@ -1,58 +1,40 @@
-<!DOCTYPE HTML>
-<html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Start page</title>
-  <link rel="icon" type="image/png" sizes="32x32" href=".UNIT-4/icons/favicon-32x32.png">
-  <style>
-    header {
-        position: fixed;
-        width: 100%;
-        height: 400px;
-        text-align: center;
-    }
-    main {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        margin-top: 400px;
-        background-color: aliceblue;
-    }
-    /* внешние границы таблицы серого цвета толщиной 1px */
-table {
-   border: 1px solid grey;
-}
-/* границы ячеек первого ряда таблицы */
-th {
-   border: 1px solid grey;
-}
-/* границы ячеек тела таблицы */
-td {
-   border: 1px solid grey;
-}
-/* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
-table {
-   width: 100%;
-   height: 100px;
-   align-items: center;
-   text-align: center;
-}
-   </style> 
- </head>
- <body>
-    <header>
-
-		<img src = "/Media/Pics/DZ.webp" alt = "logo"> <!-- изображение с логотипом -->
-		<h1>Курс WEB-development</h1> <!-- заголовок шапки -->
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href=".UNIT-4/icons/favicon-32x32.png">
+    <script src="/login.js"></script>
+    <style>
+        label {
+            padding: 30px;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+            border: 1px;                      
+        }
+    </style>
+  </head>
+  <body>
     <main>
-        <table>
-           
-            <tr><td>Урок1</td><td>Урок2</td><td>Урок3</td><td><a href="UNIT-4/index.html">Урок4</a></td><td><a href="UNIT-5/index.html">Урок5</a></td></tr> <!--ряд с ячейками тела таблицы-->
-            <tr><td><a href="UNIT-6/index.html">Урок6</a></td><td>Урок7</td><td>Урок8</td><td>Урок9</td><td>Урок10</td></tr>
-         </table>
-        
+        <h1>Доступ к домашнему заданию</h1>
+        <form>
+            <fieldset>
+            <legend>Введите данные для авторизации</legend>
+            <form id="form_id" method="post" name="myform">
+                <label>Введите логин
+                <input type="text" name="username" placeholder="логин" id="username"/></label>
+                <label>Введите пароль
+                <input type="password" name="password" placeholder="пароль" id="password"/></label>
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+                </form>
+                <a href="/404.html">Забыли пароль?</a>  
+            </fieldset>
+        </form>
     </main>
- </body>
+	<script src="index.js"></script>
+  </body>
 </html>
