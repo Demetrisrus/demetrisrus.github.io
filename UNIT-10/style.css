@@ -1,0 +1,128 @@
+header {
+    background-color: goldenrod;
+   }
+
+h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 250px;
+    font-weight: bold; 
+    letter-spacing: normal;
+    line-height: 3px; 
+    text-align: center; 
+    
+}
+h2 { 
+    color: #111; 
+    font-family: 'Courier New', sans-serif; 
+    font-size: 30px; 
+    font-weight: 300px; 
+    line-height: 32px; 
+    margin: 0 0 50px; 
+    text-align: center; 
+}
+h3 {
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgba(179, 147, 211, 0.25);
+}
+.thesis {
+    font-family: Inder; sans-serif;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: black;
+    text-align: justify;
+}
+.thesis {
+    column-count: 2;
+    column-width: 150px;
+    column-gap: 3em;
+    column-rule: 3px dotted goldenrod;  
+}
+.article__paragraph::first-letter {
+font-size: 150%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#final__quote {
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 16px 16px 30px 16px;
+    padding: 16px 24px;
+    position: relative;
+    font-size: 16px;
+    background: #efefef;
+    color: #000;
+    font-style: italic;
+}
+#final__quote::before {
+    border: 14px solid transparent;
+    border-top: 14px solid #efefef;
+    border-bottom: 0;
+    height: 0;
+    width: 0;
+    border-top-width: 25px;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 40px;
+    bottom: -25px;
+    transform-origin: center;
+    transform: rotate(90deg) skew(-25deg) translateY(17px);
+}
+#final__quote cite {
+    position: absolute;
+    bottom: -24px;
+    left: 62px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    color: #000;
+}
+#final__quote :hover {
+    font-size: 40px;
+    color:aqua;
+    background-color: gray;
+}
+author {
+    color:darkblue;
+    text-align: right;
+}
+
+.caption__list {
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    }
+    .caption__list a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+    }
+    .caption__list a:hover {background: #E9E4E0;}
+    .caption__list a:hover:before {transform: rotate(360deg);}
+    .caption__list a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    }
