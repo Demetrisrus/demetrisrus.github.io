@@ -1,0 +1,15 @@
+.text {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(177, 154, 198);
+    padding: 25px;
+    border: 5px dashed red;
+    border-top-color: darkblue;
+    margin: 25px;
+}
+.text1 {
+    width: 400px;
+    height: 350px;
+    background-color: gold;
+    margin-top: 100px;
+}
