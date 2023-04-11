@@ -50,7 +50,10 @@ ul {
     writing-mode: vertical-lr;
     text-orientation: sideways;
 }
-.about {
+#about {
+    text-align: center;
+}
+.about__item {
     display: flex;
     width: 940px;
     height: 310px;
@@ -58,17 +61,13 @@ ul {
     flex-direction: column;
     align-items: center;
     margin-top: 228px;
-   
-}
-.about__item {
-    width: 485px;
-    height: 218px;
-    font-family: Gilroy-Medium;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
     color: black;
+   
 }
+
 .header2 {
     display: flex;
     width: 940px;
