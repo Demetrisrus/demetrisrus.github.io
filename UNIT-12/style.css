@@ -1,43 +1,71 @@
-header, nav,ul {
-width: 100%;
-height: auto;
-}
-/*nav {
-    padding: 0 100px;
-}*/
+body {
+    height: 4759px;
+    width: 1445px;
+    background-color: bisque;
+    border: 4px double black;
+    box-sizing: border-box;
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-       
+    }
+
+    .menu {
+        display:flex;
+        height: 87px;
+        width: 940px;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+        font-family: Gilroy-Bold;
+        border-bottom: 1px solid #828282;
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        color:black;
+    }
+
+    .name {
+        display: flex;
+        width: 940px;
+        height: 191px;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+#name_1 {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: black;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #828282;
-    width: 940px;
-    height: auto;
-    font-family: Gilroy-Bold;
+#job {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-decoration: none;
-    color:black;
-
+    color: black;
 }
-.head {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #828282;
-    width: 940px;
-    height: 87px;
+
+#lang {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    transform: rotate(-90deg); 
+}
+.photo {
+    justify-content: center;
+}
+
+/*   
     
+       
 }
 .head__item1 {
     font-family: Gilroy-Bold;
@@ -88,4 +116,4 @@ ul {
     flex-direction: column;
     width: 940px;
     
-}
+}*/

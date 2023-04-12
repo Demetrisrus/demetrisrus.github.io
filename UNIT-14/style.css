@@ -1,0 +1,9 @@
+p {
+    display:flex;
+    background-color:darksalmon;
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    border-width: 10px;
+    text-decoration: underline;
+}
