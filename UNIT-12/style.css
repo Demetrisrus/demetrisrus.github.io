@@ -1,9 +1,19 @@
-body {
-    height: 4759px;
+html {
+     height: 4759px;
     width: 1445px;
     background-color: bisque;
     border: 4px double black;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Fonts/Gilroy-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+   
 
     }
 
@@ -62,6 +72,20 @@ body {
 .photo {
     justify-content: center;
 }
+
+.about {
+    display:flex;
+    height: 506px;
+    width: 940px;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
 
 /*   
     
