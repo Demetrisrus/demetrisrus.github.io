@@ -1,15 +1,91 @@
-.text {
+p {
+    --essence_color: beige;
+    --firstletter_color: magenta;
+    --thirdpar_color: lightcyan;
+   
+  }
+
+p::first-letter {
+    color: var(--firstletter_color);
+    font-family: Tilt Prism, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+.eurspace__head   {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background: #fee;
+  }
+  .eurspace__logo {
+    position: sticky;
+    top: 0px;
+  }
+
+.eurspace__par01 {
+    background-color: var(--essence_color);
+   
+}
+.eurspace__par02 {
+    background-color: var(--essence_color); 
+ }
+.eurspace__par03 {
+    
     width: 500px;
-    height: 300px;
-    background-color: rgb(177, 154, 198);
-    padding: 25px;
-    border: 5px dashed red;
-    border-top-color: darkblue;
-    margin: 25px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--thirdpar_color);
+    border: 10px solid salmon;
 }
-.text1 {
-    width: 400px;
-    height: 350px;
-    background-color: gold;
-    margin-top: 100px;
+.eurspace__par04 {
+    
+    position: relative;
+    left: 10%;
 }
+.eurspace__par05 {
+    background-color: var(--thirdpar_color);
+    position: sticky;
+    bottom: 0px;
+    box-sizing: border-box;
+    width: 700px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid gray;
+
+
+}
+#quote:first-child {
+    color: red;
+}
+ .eurspace__par02::after {
+    content: "Вот вам и коллективный Запад ";
+    background-color:aquamarine;
+    border-color: black;
+    border-style: dotted;
+  }
+
+
+
+  span[data-descr] {
+    position: relative;
+    text-decoration: underline;
+    color: #00F;
+    cursor: help;
+  }
+  
+  span[data-descr]:hover::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: #ffffcc;
+    padding: 12px;
+    color: #000000;
+    font-size: 14px;
+    z-index: 1;
+  }
