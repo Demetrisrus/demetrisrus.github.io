@@ -1,9 +1,44 @@
-p {
-    display:flex;
-    background-color:darksalmon;
-    color: blue;
-    border-color: blue;
-    border-style: solid;
-    border-width: 10px;
-    text-decoration: underline;
+div {
+    width: 500px;
+    height: 500px;
+    border-radius: 99px;
+    box-shadow: inset 20px 20px 20px 10px cyan,
+    inset 0 0 0 30px black;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.Gibraltar__par01 {
+  font-family: 'Sedgwick Ave Display', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: repeating-linear-gradient(white, white 2px, #b06d1a 2px, #7413b4 5px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #1383d2;
+  display: table;
+  margin: 20px auto;    
+}
+
+.Gibraltar__par02 {
+    font-size: 2em;
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em ;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    border-image-slice: 1;
+}
+.Gibraltar__par03 {
+font-family: 'Rubik One', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: -4px -4px 0px #D2EAD7;
+  background: repeating-linear-gradient(45deg, #6EB495, #6EB495 1px, white 2px, white 3px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  margin: 20px auto;
 }
