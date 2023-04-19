@@ -1,3 +1,47 @@
-html {
-    box-sizing: border-box;
-  }
+header nav ul {
+  width: 100%;
+  height: 88px;
+}
+nav {
+  padding: 0 100px;
+  
+  
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid blue;
+  padding: 10px;
+  margin: 100px;
+  
+}
+img:hover {
+  opacity: 0.5;
+}
+ div {
+  width: 300px;
+  height: 200px;
+  border: 5px solid blue;
+  background-color: aqua;
+  background-image: url(/Media/Pics/ESA.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+ }
+div:hover {
+  opacity: 0.5;
+}
