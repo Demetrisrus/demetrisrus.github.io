@@ -22,7 +22,7 @@ let userCity = 'Moscow'
 if (userCity === 'Moscow') {
   price = price**3
 } else if (userCity === 'SPB') {
-  price = price**15
+  price = price**2
 } else if (userCity === 'zamkad') {
   price = price / 2
 }
