@@ -24,5 +24,3 @@ let country = {
 console.log(number+string);
 console.log(country);
 
-
-
